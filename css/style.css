@@ -173,7 +173,7 @@
   display: block;
 }
 .burger::before {
-  content: "";
+  content: '';
   position: fixed;
   top: 0;
   right: 0;
@@ -407,7 +407,7 @@
   z-index: 1;
 }
 .button__black::before {
-  content: "";
+  content: '';
   display: block;
   width: 50%;
   height: 100%;
@@ -419,7 +419,7 @@
   z-index: -1;
 }
 .button__black::after {
-  content: "";
+  content: '';
   display: block;
   width: 50%;
   height: 100%;
@@ -494,8 +494,7 @@
 .footer {
   overflow: hidden;
   background: #ffffff18;
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   border-radius: 26px 26px 0 0;
 }
 
@@ -567,7 +566,7 @@
 }
 .footer__block-link {
   color: var(--footer__block-link-color);
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 28px;
   line-height: 32px;
   text-transform: uppercase;
@@ -590,7 +589,7 @@
   -ms-flex-align: center;
   align-items: center;
   color: var(--footer__block-button-color);
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 28px;
   line-height: 32px;
   text-transform: uppercase;
@@ -1043,7 +1042,7 @@
 .feedback__title,
 .beta-test__title {
   color: #3c3b3b;
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 40px;
   line-height: 56px;
   text-align: center;
@@ -1163,7 +1162,7 @@
 .feedback__thank-title,
 .beta-test__thank-title {
   color: #3c3b3b;
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 40px;
   line-height: 56px;
   text-align: center;
@@ -1489,9 +1488,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -1499,9 +1498,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -1510,9 +1509,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -1557,8 +1556,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
@@ -1567,8 +1566,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -1576,7 +1575,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
@@ -1584,7 +1583,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -1636,8 +1635,8 @@ a {
   text-decoration: none;
 }
 @font-face {
-  font-family: "Arial Black", sans-serif;
-  src: url("/fonts/Arial Black/Arial Black.ttf") format("truetype");
+  font-family: 'Arial Black', sans-serif;
+  src: url('/fonts/Arial Black/Arial Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
@@ -1645,18 +1644,10 @@ a {
   --body-background: #12132a;
   --section-title: #fff;
   --section-subtitle: #fff;
-  --button-backgroud: linear-gradient(
-    104.46deg,
-    #9b51e0 1.66%,
-    #3081ed 117.87%
-  );
+  --button-backgroud: linear-gradient(104.46deg, #9b51e0 1.66%, #3081ed 117.87%);
   --button-color: #fff;
   --white-text: #fff;
-  --areas-title-backgroud: linear-gradient(
-    104.46deg,
-    #9b51e0 1.66%,
-    #3081ed 117.87%
-  );
+  --areas-title-backgroud: linear-gradient(104.46deg, #9b51e0 1.66%, #3081ed 117.87%);
   --hero-pretitle: #fff;
   --burger__contacts-mail-color: #fff;
   --burger__contacts-phone-color: #fff;
@@ -1677,7 +1668,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -1700,7 +1691,7 @@ body {
 }
 
 .section__title {
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 60px;
   font-weight: 900;
   line-height: 68px;
@@ -1725,6 +1716,10 @@ body {
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+  transition: all 0.5s ease;
+}
+.order-button:hover {
+  height: 80px;
 }
 @media (max-width: 991px) {
   .section__title {
@@ -1785,7 +1780,7 @@ body {
   border-radius: 20px;
 }
 .hero__pretitle > p {
-  font-family: "Arial Black", sans-serif;
+  font-family: 'Arial Black', sans-serif;
   font-size: 26px;
   font-weight: 900;
   line-height: 68px;
@@ -1915,8 +1910,7 @@ body {
 }
 .areas-item-icon {
   background: #ffffff18;
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   border-radius: 26px;
 }
 .areas-item-icon > img {
@@ -1946,8 +1940,7 @@ body {
 }
 .areas-more {
   background: #ffffff18;
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   border-radius: 15px;
   padding: 24px;
   display: flex;
@@ -2157,8 +2150,7 @@ body {
   position: relative;
 }
 .step__item-number {
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   border-radius: 50%;
   padding: 14px 28px;
   border: 1px solid #fff;
@@ -2184,7 +2176,7 @@ body {
 }
 
 .step__item-number::before {
-  content: url("../img/tte-step-number-bg.svg");
+  content: url('../img/tte-step-number-bg.svg');
   position: absolute;
   top: -3px;
   opacity: 0;
@@ -2241,15 +2233,15 @@ body {
         transparent 15px,
         transparent 25px
     ); */
-  background-image: url("../img/step-progress-unactive.png");
+  background-image: url('../img/step-progress-unactive.png');
   background-repeat: no-repeat;
 }
 .step-progress:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 23px;
   width: 0;
-  background-image: url("../img/step-progress.png");
+  background-image: url('../img/step-progress.png');
   background-repeat: no-repeat;
   z-index: 2;
   background-size: 0 100%; /* Початковий стан */
@@ -2322,8 +2314,7 @@ body {
     max-width: 270px;
   }
   .step__item-number {
-    box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-      2.01px -2.01px 20px 0px #d6d6d62b inset;
+    box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
     border-radius: 50%;
     padding: 14px 28px;
     border: 1px solid #fff;
@@ -2339,8 +2330,11 @@ body {
     background-color: #ffffff18;
     z-index: 2;
   }
+  .step-progress {
+    display: none;
+  }
   .step__item-number::before {
-    content: url("../img/tte-step-number-bg-mobile.svg");
+    content: url('../img/tte-step-number-bg-mobile.svg');
     position: absolute;
     top: -3px;
     opacity: 0;
@@ -2362,18 +2356,7 @@ body {
     );
   }
   .step-progress::after {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 3px;
-    background: repeating-linear-gradient(
-      to right,
-      #c882ff 0,
-      #c882ff 5px,
-      transparent 5px,
-      transparent 10px
-    );
-    animation: growLine 3s linear forwards;
+    display: none;
   }
 
   .step__item:nth-child(4) .step__item-number::after {
@@ -2498,7 +2481,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   row-gap: 110px;
   column-gap: 30px;
-  background-image: url("../img/tte-features-background.png");
+  background-image: url('../img/tte-features-background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2559,7 +2542,7 @@ body {
     margin-bottom: 60px;
   }
   .features__text::after {
-    content: url("../img/tte-features-mobile-test.png");
+    content: url('../img/tte-features-mobile-test.png');
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
@@ -2583,7 +2566,7 @@ body {
     position: relative;
   }
   .features__item::after {
-    content: url("../img/tte-features-mobile-test.png");
+    content: url('../img/tte-features-mobile-test.png');
   }
   .features__item-title {
     margin-bottom: 10px;
@@ -2641,8 +2624,7 @@ body {
   animation-duration: 0.5s;
 }
 .faq__accordion-item {
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   border-radius: 26px;
   background: #ffffff18;
   margin-bottom: 20px;
@@ -2752,8 +2734,7 @@ body {
     flex-direction: column;
   }
   .faq__accordion-item {
-    box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-      2.01px -2.01px 20px 0px #d6d6d62b inset;
+    box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
     border-radius: 26px;
     background: #ffffff18;
     margin-bottom: 20px;
@@ -2833,8 +2814,7 @@ body {
 }
 .client__item {
   background: #ffffff18;
-  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset,
-    2.01px -2.01px 20px 0px #d6d6d62b inset;
+  box-shadow: -3.01px 3.01px 3.01px 0px #ffffff63 inset, 2.01px -2.01px 20px 0px #d6d6d62b inset;
   padding: 70px 40px;
   border-radius: 26px;
   display: flex;
@@ -2909,6 +2889,8 @@ body {
   }
   .client__block > .client__item {
     flex: none;
+    max-width: none;
+    width: 100%;
   }
 }
 .tariff {
@@ -2969,8 +2951,8 @@ body {
   padding-left: 60px;
 }
 .tariff__right-list > li::before {
-  content: "";
-  background-image: url("../img/tte-tariff-marker.svg");
+  content: '';
+  background-image: url('../img/tte-tariff-marker.svg');
   position: absolute;
   left: 0;
   background-size: 100%;
@@ -2999,7 +2981,7 @@ body {
 .tariff__block {
   display: flex;
   color: var(--white-text);
-  background-image: url("../img/tte-tariff-block.png");
+  background-image: url('../img/tte-tariff-block.png');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% 100%;
@@ -3224,11 +3206,11 @@ body {
   .tariff__block {
     flex-direction: column;
     align-items: center;
-    background-image: url("../img/tte-tariff-block-mobile.png");
+    background-image: url('../img/tte-tariff-block-mobile.png');
     background-position: top center;
     background-size: 100%;
-    box-shadow: 0px 28.17px 21.67px 0px #0e0015b2,
-      0px 43.33px 56.33px 0px #8300c1, -2.82px 5.63px 2.82px 0px #ffffff80 inset;
+    box-shadow: 0px 28.17px 21.67px 0px #0e0015b2, 0px 43.33px 56.33px 0px #8300c1,
+      -2.82px 5.63px 2.82px 0px #ffffff80 inset;
     border-radius: 25px;
     width: 350px;
     height: 690px;
