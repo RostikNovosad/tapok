@@ -7,9 +7,15 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+
+    <title>Tapok</title>
   </head>
   <body>
     <header class="header">
@@ -26,12 +32,7 @@
             <li class="header__links-item"><a href="#contacts">Контакти</a></li>
           </ul>
           <div class="header__group">
-            <button class="header__group-lang">
-              <img src="img/uk-flag.png" alt="lang-flag" />
-            </button>
-            <button class="header__group-button button__black show__form">
-              Замовити
-            </button>
+            <button class="header__group-button button__black show__form">Замовити</button>
             <button class="burger__open">
               <img src="img/burger-icon.svg" alt="burger-icon" />
             </button>
@@ -41,7 +42,6 @@
     </header>
     <div class="burger">
       <div class="burger__header">
-        <!-- <img src="img/burger-logo.png" alt="logo" class="burger__logo" /> -->
         <button class="burger__close">
           <img src="img/cross-white.svg" alt="cross-icon" />
         </button>
@@ -59,12 +59,8 @@
           <li><a href="#">Facebook</a></li>
           <li><a href="#">TikTok</a></li>
         </ul>
-        <a href="tel:+380639407394" class="burger__contacts-phone"
-          >+ 38 (063) 940 73 94</a
-        >
-        <a href="mailto:test@gmail.com" class="burger__contacts-mail"
-          >test@gmail.com</a
-        >
+        <a href="tel:+380639407394" class="burger__contacts-phone">+ 38 (063) 940 73 94</a>
+        <a href="mailto:test@gmail.com" class="burger__contacts-mail">test@gmail.com</a>
       </div>
     </div>
     <main>
@@ -82,16 +78,13 @@
                   Більше клієнтів, більше продажів. Просто грай!
                 </h1>
                 <p class="section__subtitle hero__subtitle">
-                  Бажаєте подвоїти обсяги продажів? Перетворіть свій бізнес на
-                  інтерактивну платформу, де кожен клієнт стане учасником
-                  захопливої гри. А ми забезпечимо зростання продажів та
-                  підвищення лояльності клієнтів.
+                  Бажаєте подвоїти обсяги продажів? Перетворіть свій бізнес на інтерактивну
+                  платформу, де кожен клієнт стане учасником захопливої гри. А ми забезпечимо
+                  зростання продажів та підвищення лояльності клієнтів.
                 </p>
                 <div class="hero__text-decoration"></div>
               </div>
-              <button class="order-button hero__button show__form">
-                Замовити
-              </button>
+              <button class="order-button hero__button show__form">Замовити</button>
             </div>
             <div class="hero__img">
               <img src="img/tte-hero-img.png" alt="" />
@@ -100,12 +93,10 @@
           </div>
         </div>
         <div class="areas">
-          <h2 class="section__title areas-title">
-            Гарантований успіх для будь-якого бізнесу
-          </h2>
+          <h2 class="section__title areas-title">Гарантований успіх для будь-якого бізнесу</h2>
           <div class="container">
             <div class="areas__block">
-              <div class="areas__row">
+              <div class="areas__row wow">
                 <div class="areas-item">
                   <a href="" class="areas-item-icon">
                     <img src="img/tte-food-delivery.svg" alt="" />
@@ -143,7 +134,7 @@
                   <p class="areas-item-title">Аптеки та інше</p>
                 </div>
               </div>
-              <div class="areas-more">
+              <div class="areas-more wow">
                 <img src="img/tte-infinity.svg" alt="" />
                 <p>кількість інших сфер бізнесу</p>
               </div>
@@ -154,70 +145,45 @@
       </section>
       <section class="trust" id="trust">
         <div class="container">
-          <div class="trust__img">
+          <div class="trust__img wow">
             <img src="img/tte-trust-img.png" alt="" />
-            <img
-              class="trust__img-decoration"
-              src="img/tte-trust-decoration.png"
-              alt=""
-            />
+            <img class="trust__img-decoration" src="img/tte-trust-decoration.png" alt="" />
           </div>
           <div class="trust__content">
-            <h2 class="section__title trust__title">Чому нам довіряють?</h2>
+            <h2 class="section__title wow trust__title">Чому нам довіряють?</h2>
             <div class="trust__block">
-              <div class="trust__item">
+              <div class="trust__item wow">
                 <div class="trust__item-header">
-                  <img
-                    class="trust__item-icon"
-                    src="img/tte-trust-innovation.svg"
-                    alt=""
-                  />
-                  <h4 class="trust__item-title">
-                    Інноваційна платформа для бізнесу
-                  </h4>
+                  <img class="trust__item-icon" src="img/tte-trust-innovation.svg" alt="" />
+                  <h4 class="trust__item-title">Інноваційна платформа для бізнесу</h4>
                 </div>
                 <p class="trust__item-subtitle">
-                  Ми створили унікальну платформу, що перетворює звичайні
-                  покупки на захопливу гру. Такий підхід уже приносить успіх за
-                  кордоном, і ми першими впроваджуємо цю інновацію в Україні.
-                  Завдяки нам ваш бізнес завжди буде на крок попереду
+                  Ми створили унікальну платформу, що перетворює звичайні покупки на захопливу гру.
+                  Такий підхід уже приносить успіх за кордоном, і ми першими впроваджуємо цю
+                  інновацію в Україні. Завдяки нам ваш бізнес завжди буде на крок попереду
                   конкурентів
                 </p>
               </div>
-              <div class="trust__item">
+              <div class="trust__item wow">
                 <div class="trust__item-header">
-                  <img
-                    class="trust__item-icon"
-                    src="img/tte-trust-start.svg"
-                    alt=""
-                  />
-                  <h4 class="trust__item-title">
-                    Швидкий старт і зростання продажів
-                  </h4>
+                  <img class="trust__item-icon" src="img/tte-trust-start.svg" alt="" />
+                  <h4 class="trust__item-title">Швидкий старт і зростання продажів</h4>
                 </div>
                 <p class="trust__item-subtitle">
-                  Наше рішення готове до використання вже сьогодні. Ми швидко
-                  інтегруємо її в ваш бізнес і гарантуємо помітне зростання
-                  продажів у найкоротші терміни
+                  Наше рішення готове до використання вже сьогодні. Ми швидко інтегруємо її в ваш
+                  бізнес і гарантуємо помітне зростання продажів у найкоротші терміни
                 </p>
               </div>
-              <div class="trust__item">
+              <div class="trust__item wow">
                 <div class="trust__item-header">
-                  <img
-                    class="trust__item-icon"
-                    src="img/tte-trust-loyalty.svg"
-                    alt=""
-                  />
-                  <h4 class="trust__item-title">
-                    Підвищення лояльності ваших клієнтів
-                  </h4>
+                  <img class="trust__item-icon" src="img/tte-trust-loyalty.svg" alt="" />
+                  <h4 class="trust__item-title">Підвищення лояльності ваших клієнтів</h4>
                 </div>
                 <p class="trust__item-subtitle">
-                  Завдяки інтерактивній механіці "tap to earn," ваші клієнти
-                  стануть активними учасниками гри, насолоджуючись кожною
-                  взаємодією з вашим брендом. Клієнти будуть чекати нових
-                  щоденних завдань, рекомендувати ваш бізнес друзям і
-                  повертатись за новими досягненнями
+                  Завдяки інтерактивній механіці "tap to earn," ваші клієнти стануть активними
+                  учасниками гри, насолоджуючись кожною взаємодією з вашим брендом. Клієнти будуть
+                  чекати нових щоденних завдань, рекомендувати ваш бізнес друзям і повертатись за
+                  новими досягненнями
                 </p>
               </div>
             </div>
@@ -227,14 +193,14 @@
       <section class="step" id="step">
         <div class="container">
           <div class="step__text">
-            <h2 class="section__title step__title">Як це працює?</h2>
-            <p class="section__subtitle step__subtitle">
-              Не потрібно чекати кілька місяців, щоб розробити мобільний додаток
-              або сайт для вашого бізнесу. Ми допоможемо запустити ваш проект за
-              5 днів за допомогою кількох простих кроків
+            <h2 class="section__title wow step__title">Як це працює?</h2>
+            <p class="section__subtitle wow step__subtitle">
+              Не потрібно чекати кілька місяців, щоб розробити мобільний додаток або сайт для вашого
+              бізнесу. Ми допоможемо запустити ваш проект за 5 днів за допомогою кількох простих
+              кроків
             </p>
           </div>
-          <div class="step__block">
+          <div class="step__block wow">
             <div class="step__item">
               <div class="step__item-header">
                 <div class="step-progress"></div>
@@ -243,8 +209,7 @@
               <div class="step__item-content">
                 <h4 class="step__item-title">Оформлення заявки</h4>
                 <p class="step__item-subtitle">
-                  Розкажіть нам про ваш бізнес, і ми обговоримо, як перетворити
-                  ідеї на гру
+                  Розкажіть нам про ваш бізнес, і ми обговоримо, як перетворити ідеї на гру
                 </p>
               </div>
             </div>
@@ -256,8 +221,7 @@
               <div class="step__item-content">
                 <h4 class="step__item-title">Дизайн</h4>
                 <p class="step__item-subtitle">
-                  Ми створюємо стильний дизайн, який ідеально підходить для
-                  вашого бізнесу
+                  Ми створюємо стильний дизайн, який ідеально підходить для вашого бізнесу
                 </p>
               </div>
             </div>
@@ -269,8 +233,7 @@
               <div class="step__item-content">
                 <h4 class="step__item-title">Розробка</h4>
                 <p class="step__item-subtitle">
-                  Ми реалізовуємо дизайн у повноцінну інтерактивну гру, готову
-                  до використання
+                  Ми реалізовуємо дизайн у повноцінну інтерактивну гру, готову до використання
                 </p>
               </div>
             </div>
@@ -281,30 +244,26 @@
               <div class="step__item-content">
                 <h4 class="step__item-title">Гра готова – час діяти!</h4>
                 <p class="step__item-subtitle">
-                  Ви отримуєте готове рішення, яке підвищить продажі та залучить
-                  нових клієнтів
+                  Ви отримуєте готове рішення, яке підвищить продажі та залучить нових клієнтів
                 </p>
               </div>
             </div>
           </div>
-          <button class="step__button order-button show__form">
-            Подивитися демо
-          </button>
+          <button class="step__button order-button wow show__form">Подивитися демо</button>
         </div>
       </section>
       <section class="solution" id="solution">
         <div class="container">
           <div class="solution__text">
-            <h2 class="section__title solution__title">
+            <h2 class="section__title wow solution__title">
               Від простих рішень до великих досягнень
             </h2>
-            <p class="section__subtitle solution__subtitle">
-              Адаптований під ваш бренд дизайн та інтуїтивно зрозумілі елементи
-              забезпечують найкращий користувацький досвід та максимальну
-              ефективність для вашого бізнесу
+            <p class="section__subtitle wow solution__subtitle">
+              Адаптований під ваш бренд дизайн та інтуїтивно зрозумілі елементи забезпечують
+              найкращий користувацький досвід та максимальну ефективність для вашого бізнесу
             </p>
           </div>
-          <div class="solution__img">
+          <div class="solution__img wow">
             <img src="img/tte-solution-img-1.png" alt="" />
             <img src="img/tte-solution-img-2.png" alt="" />
             <img src="img/tte-solution-img-3.png" alt="" />
@@ -316,86 +275,59 @@
       <section class="features" id="features">
         <div class="container">
           <div class="features__text">
-            <h2 class="section__title features__title">
-              Можливості для вашого бізнесу
-            </h2>
-            <p class="section__subtitle features__subtitle">
-              Наш інструмент легко адаптується під ваш бренд і дозволить вам
-              збільшити середній чек на 60% завдяки унікальним можливостям
-              нашого рішення. Спробуйте і відчуйте різницю!
+            <h2 class="section__title wow features__title">Можливості для вашого бізнесу</h2>
+            <p class="section__subtitle wow features__subtitle">
+              Наш інструмент легко адаптується під ваш бренд і дозволить вам збільшити середній чек
+              на 60% завдяки унікальним можливостям нашого рішення. Спробуйте і відчуйте різницю!
             </p>
           </div>
-          <div class="features__block">
+          <div class="features__block wow">
             <div class="features__item">
-              <img
-                src="img/tte-features-design.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-design.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Індивідуальний дизайн</h4>
               <p class="features__item-subtitle">
-                Повна кастомізація кольорів, шрифтів, та стилю інтерфейсу для
-                максимальної відповідності вашому бренду
+                Повна кастомізація кольорів, шрифтів, та стилю інтерфейсу для максимальної
+                відповідності вашому бренду
               </p>
             </div>
             <div class="features__item">
-              <img
-                src="img/tte-features-character.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-character.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Унікальний персонаж</h4>
               <p class="features__item-subtitle">
-                Ми розробимо яскравого персонажа, щоб створити незабутній гейм
-                досвід для ваших клієнтів
+                Ми розробимо яскравого персонажа, щоб створити незабутній гейм досвід для ваших
+                клієнтів
               </p>
             </div>
             <div class="features__item">
-              <img
-                src="img/tte-features-tickets.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-tickets.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Гнучкі купони</h4>
               <p class="features__item-subtitle">
-                Наша платформа дозволяє вам обрати продукти та послуги для
-                максимального збільшення продажів
+                Наша платформа дозволяє вам обрати продукти та послуги для максимального збільшення
+                продажів
               </p>
             </div>
             <div class="features__item">
-              <img
-                src="img/tte-features-grow.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-grow.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Ексклюзивні рівні</h4>
               <p class="features__item-subtitle">
-                Мотивуйте користувачів досягати нових рівнів і підвищуйте їх
-                лояльність за допомогою ексклюзивних переваг
+                Мотивуйте користувачів досягати нових рівнів і підвищуйте їх лояльність за допомогою
+                ексклюзивних переваг
               </p>
             </div>
             <div class="features__item">
-              <img
-                src="img/tte-features-light.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-light.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Реалізація ваших ідей</h4>
               <p class="features__item-subtitle">
-                Ми готові реалізувати будь-які ваші ідеї та додаткові функції,
-                які допоможуть вам досягти ваших бізнес-цілей
+                Ми готові реалізувати будь-які ваші ідеї та додаткові функції, які допоможуть вам
+                досягти ваших бізнес-цілей
               </p>
             </div>
             <div class="features__item">
-              <img
-                src="img/tte-features-marketing.svg"
-                alt=""
-                class="features__item-icon"
-              />
+              <img src="img/tte-features-marketing.svg" alt="" class="features__item-icon" />
               <h4 class="features__item-title">Вірусний маркетинг</h4>
               <p class="features__item-subtitle">
-                Функція “Бонус за друга” - це потужний інструмент для збільшення
-                кількості нових клієнтів
+                Функція “Бонус за друга” - це потужний інструмент для збільшення кількості нових
+                клієнтів
               </p>
             </div>
           </div>
@@ -404,181 +336,121 @@
       <section class="faq" id="faq">
         <div class="container">
           <div class="faq__content">
-            <h2 class="section__title faq__title">FAQ</h2>
+            <h2 class="section__title wow faq__title">FAQ</h2>
             <div class="faq__header">
-              <p class="section__subtitle faq__subtitle">
+              <p class="section__subtitle wow faq__subtitle">
                 Не знайшли відповідь на своє питання? Ми готові вам допомогти!
               </p>
-              <button class="order-button faq__button show__form">
-                Замовити консультацію
-              </button>
+              <button class="order-button wow faq__button show__form">Замовити консультацію</button>
             </div>
             <div class="faq__accordion">
               <div class="faq__accordion-group">
                 <div class="faq__accordion-item wow">
                   <div class="faq__accordion-header">
                     <h3 class="faq__accordion-title">Які терміни?</h3>
-                    <img
-                      src="img/arrow.svg"
-                      alt="arrow"
-                      class="faq__accordion-arrow"
-                    />
+                    <img src="img/arrow.svg" alt="arrow" class="faq__accordion-arrow" />
                   </div>
                   <div class="faq__accordion-content">
                     <p>
-                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка,
-                      зв’яжіться з нами, якщо ви б хотіли оплатити іншим
-                      способом.
+                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка, зв’яжіться з нами, якщо
+                      ви б хотіли оплатити іншим способом.
                     </p>
                   </div>
                 </div>
                 <div class="faq__accordion-item wow">
                   <div class="faq__accordion-header">
-                    <h3 class="faq__accordion-title">
-                      Які доступні способи оплат?
-                    </h3>
-                    <img
-                      src="img/arrow.svg"
-                      alt="arrow"
-                      class="faq__accordion-arrow"
-                    />
+                    <h3 class="faq__accordion-title">Які доступні способи оплат?</h3>
+                    <img src="img/arrow.svg" alt="arrow" class="faq__accordion-arrow" />
                   </div>
                   <div class="faq__accordion-content">
                     <p>
-                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка,
-                      зв’яжіться з нами, якщо ви б хотіли оплатити іншим
-                      способом.
+                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка, зв’яжіться з нами, якщо
+                      ви б хотіли оплатити іншим способом.
                     </p>
                   </div>
                 </div>
                 <div class="faq__accordion-item wow">
                   <div class="faq__accordion-header">
-                    <h3 class="faq__accordion-title">
-                      Які доступні способи оплат?
-                    </h3>
-                    <img
-                      src="img/arrow.svg"
-                      alt="arrow"
-                      class="faq__accordion-arrow"
-                    />
+                    <h3 class="faq__accordion-title">Які доступні способи оплат?</h3>
+                    <img src="img/arrow.svg" alt="arrow" class="faq__accordion-arrow" />
                   </div>
                   <div class="faq__accordion-content">
                     <p>
-                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка,
-                      зв’яжіться з нами, якщо ви б хотіли оплатити іншим
-                      способом.
+                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка, зв’яжіться з нами, якщо
+                      ви б хотіли оплатити іншим способом.
                     </p>
                   </div>
                 </div>
                 <div class="faq__accordion-item wow">
                   <div class="faq__accordion-header">
-                    <h3 class="faq__accordion-title">
-                      Які доступні способи оплат?
-                    </h3>
-                    <img
-                      src="img/arrow.svg"
-                      alt="arrow"
-                      class="faq__accordion-arrow"
-                    />
+                    <h3 class="faq__accordion-title">Які доступні способи оплат?</h3>
+                    <img src="img/arrow.svg" alt="arrow" class="faq__accordion-arrow" />
                   </div>
                   <div class="faq__accordion-content">
                     <p>
-                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка,
-                      зв’яжіться з нами, якщо ви б хотіли оплатити іншим
-                      способом.
+                      Ми приймаємо оплату на рахунок в гривнях. Будь ласка, зв’яжіться з нами, якщо
+                      ви б хотіли оплатити іншим способом.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="faq__img">
+          <div class="faq__img wow">
             <img src="img/tte-faq-img.png" alt="" />
-            <img
-              class="faq__img-decoration"
-              src="img/tte-faq-img-decoration.png"
-              alt=""
-            />
+            <img class="faq__img-decoration" src="img/tte-faq-img-decoration.png" alt="" />
           </div>
         </div>
       </section>
       <section class="client" id="client">
         <div class="container">
           <div class="client__text">
-            <h2 class="section__title client__title">
+            <h2 class="section__title wow client__title">
               Клієнти, які вже впровадили наше рішення
             </h2>
-            <p class="section__subtitle client__subtitle">
-              Наш інструмент легко адаптується під ваш бренд і дозволить вам
-              збільшити середній чек на 60% завдяки унікальним можливостям
-              нашого рішення. Спробуйте і відчуйте різницю!
+            <p class="section__subtitle wow client__subtitle">
+              Наш інструмент легко адаптується під ваш бренд і дозволить вам збільшити середній чек
+              на 60% завдяки унікальним можливостям нашого рішення. Спробуйте і відчуйте різницю!
             </p>
           </div>
-          <div class="client__block">
+          <div class="client__block wow">
             <div class="client__item">
-              <img
-                class="client__item-img"
-                src="img/tte-client-logo-1.svg"
-                alt=""
-              />
+              <img class="client__item-img" src="img/tte-client-logo-1.svg" alt="" />
             </div>
             <div class="client__item">
-              <img
-                class="client__item-img"
-                src="img/tte-client-logo-2.svg"
-                alt=""
-              />
+              <img class="client__item-img" src="img/tte-client-logo-2.svg" alt="" />
             </div>
             <div class="client__item">
-              <img
-                class="client__item-img"
-                src="img/tte-client-logo-3.svg"
-                alt=""
-              />
+              <img class="client__item-img" src="img/tte-client-logo-3.svg" alt="" />
             </div>
             <div class="client__item">
-              <img
-                class="client__item-img"
-                src="img/tte-client-logo-4.svg"
-                alt=""
-              />
+              <img class="client__item-img" src="img/tte-client-logo-4.svg" alt="" />
             </div>
             <div class="client__item">
-              <img
-                class="client__item-img"
-                src="img/tte-client-logo-5.svg"
-                alt=""
-              />
+              <img class="client__item-img" src="img/tte-client-logo-5.svg" alt="" />
             </div>
           </div>
         </div>
-        <div class="client-decoration"></div>
+        <div class="client-decoration wow"></div>
       </section>
       <section class="tariff" id="tariff">
         <div class="container">
-          <div class="tariff__block">
+          <div class="tariff__block wow">
             <div class="tariff__left">
               <div class="tariff__left-content">
                 <h4 class="tariff__left-title">Прокачайте і ви свій бізнес!</h4>
                 <h4 class="tariff__left-price">$2000</h4>
                 <p class="tariff__left-subtitle">одноразова оплата</p>
-                <div class="order-button tariff__left-button show__form">
-                  Замовити
-                </div>
+                <div class="order-button wow tariff__left-button show__form">Замовити</div>
               </div>
             </div>
             <div class="tariff__right">
               <h4 class="tariff__right-title">
-                Отримайте доступ до цих функцій, обравши пакет послуг для вашого
-                бізнесу:
+                Отримайте доступ до цих функцій, обравши пакет послуг для вашого бізнесу:
               </h4>
               <ul class="tariff__right-list">
-                <li class="tariff__right-item">
-                  Готова гра earn to tap у стилі вашого бренду
-                </li>
-                <li class="tariff__right-item">
-                  Адмін панель для створення купонів і акцій
-                </li>
+                <li class="tariff__right-item">Готова гра earn to tap у стилі вашого бренду</li>
+                <li class="tariff__right-item">Адмін панель для створення купонів і акцій</li>
                 <li class="tariff__right-item">Дизайн унікального персонажа</li>
                 <li class="tariff__right-item">24/7 підтримка</li>
               </ul>
@@ -595,16 +467,12 @@
             <div class="footer__block-row">
               <div class="footer__block-item">
                 <div class="footer__block-animated">
-                  <a href="#" class="footer__block-link"
-                    >Подивитись демо сайту</a
-                  >
+                  <a href="#" class="footer__block-link">Подивитись демо сайту</a>
                 </div>
               </div>
               <div class="footer__block-item">
                 <div class="footer__block-animated">
-                  <button class="footer__block-button show__form">
-                    Залишити заявку
-                  </button>
+                  <button class="footer__block-button show__form">Залишити заявку</button>
                 </div>
               </div>
               <div class="footer__block-item">
@@ -661,12 +529,8 @@
                 /></a>
               </div>
               <div class="footer__app">
-                <a href="#"
-                  ><img src="img/app-store.png" alt="app-store-icon"
-                /></a>
-                <a href="#"
-                  ><img src="img/google-play.png" alt="google-play-icon"
-                /></a>
+                <a href="#"><img src="img/app-store.png" alt="app-store-icon" /></a>
+                <a href="#"><img src="img/google-play.png" alt="google-play-icon" /></a>
               </div>
             </div>
           </div>
@@ -682,50 +546,25 @@
           </button>
           <h2 class="feedback__title">Зв’язатись з нами</h2>
           <p class="feedback__subtitle">
-            Ми працюємо кожен день з 8:00 до 20:00 і готові допомогти вам з
-            будь-якими питаннями!
+            Ми працюємо кожен день з 8:00 до 20:00 і готові допомогти вам з будь-якими питаннями!
           </p>
           <form class="feedback__form">
-            <input
-              type="hidden"
-              name="_token"
-              value="Jlmv3vOQuEYpOskHjDgpF2vYvbXFr9Oxxt1p7eu7"
-              autocomplete="off"
-            />
             <div class="feedback__form-wrapper">
               <label for="name">Ваше ім’я</label>
-              <input type="text" name="name" id="name" placeholder="Дмитро" />
-              <p class="error error-name hidden">
-                Будь ласка, введіть валідне ім&#039;я
-              </p>
+              <input type="text" name="name" id="name" placeholder="Ростислав" />
+              <p class="error error-name hidden">Будь ласка, введіть валідне ім&#039;я</p>
             </div>
             <div class="feedback__form-wrapper">
               <label for="phone">Ваш номер телефону</label>
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                placeholder="+ 38 (063) 000 00 00"
-              />
-              <p class="error error-phone hidden">
-                Будь ласка, введіть валідний телефонний номер
-              </p>
+              <input type="tel" name="phone" id="phone" placeholder="+ 38 (099) 000 00 00" />
+              <p class="error error-phone hidden">Будь ласка, введіть валідний телефонний номер</p>
             </div>
             <div class="feedback__form-wrapper">
               <label for="message">Ваш запит</label>
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="6"
-              ></textarea>
-              <p class="error error-message hidden">
-                Будь ласка, введіть валідне повідомлення
-              </p>
+              <textarea name="message" id="message" cols="30" rows="6"></textarea>
+              <p class="error error-message hidden">Будь ласка, введіть валідне повідомлення</p>
             </div>
-            <button type="submit" class="feedback__form-button button__black">
-              Відправити
-            </button>
+            <button type="submit" class="feedback__form-button button__black">Відправити</button>
             <p class="form-message hidden">Дані успішно надіслані</p>
           </form>
           <div class="feedback__thank">
@@ -734,8 +573,7 @@
             </div>
             <h2 class="feedback__thank-title">Дякуємо за ваш запит!</h2>
             <p class="feedback__thank-subtitle">
-              Наші фахівці вже поспішають на допомогу. Зв’яжемось з вами
-              найближчим часом!
+              Наші фахівці вже поспішають на допомогу. Зв’яжемось з вами найближчим часом!
             </p>
           </div>
         </div>
@@ -748,5 +586,6 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/index.js"></script>
 </html>

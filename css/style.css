@@ -1654,6 +1654,7 @@ a {
   --button__black-bg-color: #000000;
   --button__black-color: #fff;
   --header__group-button-bg-color: #000000;
+  --hover-color: #444;
 }
 
 * {
@@ -1697,12 +1698,20 @@ body {
   line-height: 68px;
   margin-bottom: 25px;
   color: var(--section-title);
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .section__subtitle {
   font-size: 22px;
   font-weight: 400;
   line-height: 36px;
   color: var(--section-subtitle);
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .order-button {
   padding: 24px 30px;
@@ -1717,6 +1726,10 @@ body {
   line-height: 23px;
   text-align: center;
   transition: all 0.5s ease;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .order-button:hover {
   height: 80px;
@@ -1901,6 +1914,10 @@ body {
   justify-items: center;
   width: 100%;
   margin-top: 80px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .areas-item {
   max-width: 150px;
@@ -1949,6 +1966,10 @@ body {
   gap: 14px;
   max-width: 510px;
   margin-top: 60px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .areas-more > p {
   font-size: 26px;
@@ -2015,6 +2036,10 @@ body {
 .trust {
   margin-top: 55px;
   margin-bottom: 135px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .trust > .container {
   display: flex;
@@ -2022,6 +2047,10 @@ body {
 }
 .trust__img {
   position: relative;
+  -webkit-animation: fadeInLeft;
+  animation: fadeInLeft;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .trust__img-decoration {
   position: absolute;
@@ -2041,6 +2070,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+.trust__item {
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .trust__item-header {
   display: flex;
@@ -2137,6 +2172,10 @@ body {
 .step__block {
   display: flex;
   gap: 80px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .step__item {
   display: flex;
@@ -2402,6 +2441,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   gap: 20px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 
 .solution__img > img:nth-child(odd) {
@@ -2486,6 +2529,10 @@ body {
   background-position: center;
   background-size: 100%;
   padding: 50px 0;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .features__item {
   display: flex;
@@ -2673,6 +2720,10 @@ body {
 .faq__img {
   position: relative;
   order: 2;
+  -webkit-animation: fadeInLeft;
+  animation: fadeInLeft;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .faq__img > img {
   margin-top: 40px;
@@ -2811,6 +2862,10 @@ body {
   margin-top: 60px;
   margin-bottom: 50px;
   justify-content: space-between;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .client__item {
   background: #ffffff18;
@@ -2834,6 +2889,10 @@ body {
   filter: blur(200px);
   top: 160px;
   left: 0;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 1280px) {
   .client__block {
@@ -2986,6 +3045,10 @@ body {
   background-position: top center;
   background-size: 100% 100%;
   border-radius: 50px;
+  -webkit-animation: fadeInUp;
+  animation: fadeInUp;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 
 .tariffs__block-item {
